@@ -39,9 +39,9 @@
 				"List Box": {
 					"type": "listbox",
 					"left": 20,
-					"top": 20,
+					"top": 45,
 					"width": 674,
-					"height": 670,
+					"height": 650,
 					"events": [
 						"onClick",
 						"onDoubleClick",
@@ -138,11 +138,47 @@
 					"action": "cancel",
 					"sizingY": "move",
 					"sizingX": "move"
+				},
+				"Schaltflaeche1": {
+					"type": "button",
+					"text": "+",
+					"top": 9,
+					"left": 357,
+					"width": 41,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltflaeche1.4dm"
+				},
+				"Schaltflaeche2": {
+					"type": "button",
+					"text": "-",
+					"top": 9,
+					"left": 407,
+					"width": 41,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltflaeche2.4dm"
+				},
+				"Schaltflaeche3": {
+					"type": "button",
+					"text": "Edit",
+					"top": 9,
+					"left": 287,
+					"width": 66,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltflaeche3.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 124,
+	"geometryStamp": 196,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",
