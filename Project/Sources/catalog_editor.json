@@ -1,0 +1,29 @@
+{
+	"tables": {
+		"Tabelle_1": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 40,
+				"top": 40,
+				"width": 179.17578125,
+				"height": 176.18359375
+			},
+			"displayable_fields_count": 6,
+			"fields": {
+				"Primary_Key": {
+					"color": {
+						"red": 216,
+						"green": 30,
+						"blue": 5,
+						"alpha": 255
+					}
+				}
+			}
+		}
+	}
+}

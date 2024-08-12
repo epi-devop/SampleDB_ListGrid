@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="SampleDB_ListGrid" uuid="59E5DBC1831E4D1D9558A22B98929790" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Tabelle_1" uuid="BBA5D8C23F944DB096690BF7F1A9DF5E" id="1">
+		<field name="Primary_Key" uuid="6B9488DA3DDA462B95D0A96ADBC6C85E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Feld_2" uuid="F909C9A4E10D4F75B42A310B8A13B811" type="10" limiting_length="255" id="2"/>
+		<field name="Feld_3" uuid="CBF1C59BE7E149A9AB86F10895C6DE3E" type="10" limiting_length="255" id="3"/>
+		<field name="Feld_4" uuid="14EC1F53237D429E84BF4B1FE3AAE00A" type="10" limiting_length="255" id="4"/>
+		<field name="Feld_5" uuid="9BF0B087B7CA41D7B7BB4B7DFE62CE6A" type="10" limiting_length="255" id="5"/>
+		<primary_key field_name="Primary_Key" field_uuid="6B9488DA3DDA462B95D0A96ADBC6C85E"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="9A3F942493254906962861FA1973DBB8" type="7">
+		<field_ref uuid="6B9488DA3DDA462B95D0A96ADBC6C85E" name="Primary_Key">
+			<table_ref uuid="BBA5D8C23F944DB096690BF7F1A9DF5E" name="Tabelle_1"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>
