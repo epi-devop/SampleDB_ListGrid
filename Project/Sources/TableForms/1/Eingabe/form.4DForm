@@ -1,0 +1,144 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Primary key",
+					"top": 42,
+					"left": 44,
+					"width": 101,
+					"height": 16
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Field 2",
+					"top": 67,
+					"left": 44,
+					"width": 96,
+					"height": 16
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Field 3",
+					"top": 92,
+					"left": 44,
+					"width": 96,
+					"height": 16
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Field 4",
+					"top": 117,
+					"left": 44,
+					"width": 96,
+					"height": 16
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Field 5",
+					"top": 142,
+					"left": 44,
+					"width": 96,
+					"height": 16
+				},
+				"Eingabe1": {
+					"type": "input",
+					"left": 129,
+					"top": 41,
+					"width": 445,
+					"height": 17,
+					"dataSource": "[Tabelle_1:1]Primary_Key:1",
+					"dataSourceTypeHint": "integer",
+					"enterable": false
+				},
+				"Schaltflaeche": {
+					"type": "button",
+					"text": "Save",
+					"top": 244,
+					"left": 436,
+					"width": 124,
+					"height": 28,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltflaeche.4dm"
+				},
+				"Eingabe2": {
+					"type": "input",
+					"left": 129,
+					"top": 66,
+					"width": 445,
+					"height": 17,
+					"dataSource": "[Tabelle_1:1]Feld_2:2"
+				},
+				"Eingabe3": {
+					"type": "input",
+					"left": 129,
+					"top": 91,
+					"width": 445,
+					"height": 17,
+					"dataSource": "[Tabelle_1:1]Feld_3:3"
+				},
+				"Eingabe4": {
+					"type": "input",
+					"left": 129,
+					"top": 116,
+					"width": 445,
+					"height": 17,
+					"dataSource": "[Tabelle_1:1]Feld_4:4"
+				},
+				"Eingabe5": {
+					"type": "input",
+					"left": 129,
+					"top": 141,
+					"width": 445,
+					"height": 17,
+					"dataSource": "[Tabelle_1:1]Feld_5:5"
+				}
+			}
+		}
+	],
+	"geometryStamp": 72,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

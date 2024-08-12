@@ -41,20 +41,30 @@
 					"left": 20,
 					"top": 20,
 					"width": 674,
-					"height": 375,
+					"height": 670,
 					"events": [
 						"onClick",
-						"onHeaderClick",
+						"onDoubleClick",
 						"onDataChange",
-						"onSelectionChange"
+						"onSelectionChange",
+						"onHeaderClick"
 					],
 					"listboxType": "currentSelection",
 					"table": 1,
 					"showFooters": true,
+					"highlightSet": "ListGrid_Set0",
+					"dataSource": "lb_1",
+					"method": "ObjectMethods/List Box.4dm",
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"staticColumnCount": 5,
 					"columns": [
 						{
 							"header": {
-								"text": "Feld 1",
+								"text": "PK",
 								"name": "Kopf1"
 							},
 							"name": "Spalte1",
@@ -62,7 +72,8 @@
 								"name": "Fussteil1"
 							},
 							"dataSource": "[Tabelle_1:1]Primary_Key:1",
-							"enterable": false
+							"enterable": false,
+							"textAlign": "center"
 						},
 						{
 							"header": {
@@ -117,18 +128,27 @@
 				"Schaltflaeche": {
 					"type": "button",
 					"text": "Close",
-					"top": 413,
+					"top": 698,
 					"left": 550,
 					"width": 144,
 					"height": 29,
 					"events": [
 						"onClick"
 					],
-					"action": "cancel"
+					"action": "cancel",
+					"sizingY": "move",
+					"sizingX": "move"
 				}
 			}
 		}
 	],
-	"geometryStamp": 4,
-	"method": "method.4dm"
+	"geometryStamp": 124,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }
