@@ -1,7 +1,11 @@
 {
 	"Standard Formular": {},
 	"Standard Klasse": {},
-	"Standard Projekt-Methode": {},
+	"Standard Projekt-Methode": {
+		"methods": [
+			"fillTable"
+		]
+	},
 	"Standard-Ordner": {
 		"groups": [
 			"Standard Formular",
