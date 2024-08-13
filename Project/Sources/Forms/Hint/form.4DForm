@@ -1,0 +1,70 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Schaltflaeche": {
+					"type": "button",
+					"text": "Close",
+					"top": 593,
+					"left": 510,
+					"width": 123,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"action": "accept"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Szenario 1\r\r1. Scrolle in die Mitte der Liste\r2. Doppelklick auf einen Eintrag.\r3. Eingabe öffnet sich.\r4. Feld 2 ändern und speichern\r5. Liste aktualisiert sich\r6. Nochmals Doppelklicj auf den selben Eintrag\r7. Liste springt nach oben\r8. aber der korrekte Eintrag wird geöffnet (entgegen unserer Produktions-DB)\r\r\rSzenario 2\r\r1. Scrolle in die Mitte der Liste\r2. Markiere einen Eintrag\r3. Drücke Button \"Edit\"\r4. Eingabe öffnet sich.\r5. Feld 2 ändern und speichern\r6. Liste aktualisiert sich\r6. Nochmals Button \"Edit\" drücken\r7. Falscher Eintrag wird geöffnet\r",
+					"top": 42,
+					"left": 55,
+					"width": 577,
+					"height": 399
+				}
+			}
+		}
+	],
+	"geometryStamp": 42,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

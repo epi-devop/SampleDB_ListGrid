@@ -12,7 +12,7 @@ If (Locked:C147([Tabelle_1:1])=False:C215)
 	$obj_form_message:=New object:C1471
 	$obj_form_message.success:=False:C215
 	
-	$l_win:=Open form window:C675([Tabelle_1:1]; "Eingabe"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
+	$l_win:=Open form window:C675([Tabelle_1:1]; "Eingabe"; Plain form window:K39:10; Horizontally centered:K39:1; At the top:K39:5)
 	DIALOG:C40([Tabelle_1:1]; "Eingabe"; $obj_form_message)
 	CLOSE WINDOW:C154
 	
