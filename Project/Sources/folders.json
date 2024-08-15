@@ -3,7 +3,9 @@
 	"Standard Klasse": {},
 	"Standard Projekt-Methode": {
 		"methods": [
-			"fillTable"
+			"fillTable",
+			"makeRndWord",
+			"RandomRanged"
 		]
 	},
 	"Standard-Ordner": {
